@@ -1,11 +1,11 @@
 {
     "version": "2.0.0",
     "tasks": [
-      // {
-      //   "label": "Git Pull",
-      //   "command": "git pull --rebase",
-      //   "type": "shell",
-      // },
+      {
+        "label": "Git Pull",
+        "command": "git pull --rebase",
+        "type": "shell",
+      },
       {
         "label": "Yarn Install",
         "command": "yarn install",
@@ -13,7 +13,7 @@
       },
       {
         "label": "Run Development",
-        "command": "yarn run dev",
+        "command": "yarn start",
         "type": "shell",
       },
     //        {

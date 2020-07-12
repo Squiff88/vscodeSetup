@@ -1,41 +1,31 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {
-		"git.ignoreLimitWarning": true,
-		"workbench.colorCustomizations": {
-			"activityBar.activeBackground": "#93e6fc",
-			"activityBar.activeBorder": "#fa45d4",
-			"activityBar.background": "#93e6fc",
-			"activityBar.foreground": "#15202b",
-			"activityBar.inactiveForeground": "#15202b99",
-			"activityBarBadge.background": "#fa45d4",
-			"activityBarBadge.foreground": "#15202b",
-			"statusBar.background": "#61dafb",
-			"statusBar.border": "#61dafb",
-			"statusBar.foreground": "#15202b",
-			"statusBarItem.hoverBackground": "#2fcefa",
-			"titleBar.activeBackground": "#61dafb",
-			"titleBar.activeForeground": "#15202b",
-			"titleBar.border": "#61dafb",
-			"titleBar.inactiveBackground": "#61dafb99",
-			"titleBar.inactiveForeground": "#15202b99"
-		},
-		"peacock.color": "#61dafb"
-	},
-	"extensions": {
-		"recommendations": [
-		  "coenraads.bracket-pair-colorizer-2",
-		  "esbenp.prettier-vscode",
-		  "perkovec.emoji",
-		  "dbaeumer.vscode-eslint",
-		  "christian-kohler.path-intellisense",
-		  "johnpapa.vscode-peacock",
-		  "ofhumanbondage.react-proptypes-intellisense",
-		  "visualstudioexptteam.vscodeintellicode"
-		],
-	}
+    "folders": [
+        {
+            "path": "backend"
+        },
+        {
+            "path": "frontend"
+        }
+    ],
+    "settings": {
+        "workbench.colorCustomizations": {
+            "activityBar.activeBackground": "#93e6fc",
+            "activityBar.activeBorder": "#fa45d4",
+            "activityBar.background": "#93e6fc",
+            "activityBar.foreground": "#15202b",
+            "activityBar.inactiveForeground": "#15202b99",
+            "activityBarBadge.background": "#fa45d4",
+            "activityBarBadge.foreground": "#15202b",
+            "statusBar.background": "#61dafb",
+            "statusBar.border": "#61dafb",
+            "statusBar.foreground": "#15202b",
+            "statusBarItem.hoverBackground": "#2fcefa",
+            "titleBar.activeBackground": "#61dafb",
+            "titleBar.activeForeground": "#15202b",
+            "titleBar.border": "#61dafb",
+            "titleBar.inactiveBackground": "#61dafb99",
+            "titleBar.inactiveForeground": "#15202b99"
+        },
+        "peacock.color": "#61dafb"
+    }
 }
