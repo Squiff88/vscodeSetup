@@ -1,10 +1,12 @@
 {
     "folders": [
         {
-            "path": "backend"
+            "path": "backend",
+            "name": "NodeJS"
         },
         {
-            "path": "frontend"
+            "path": "frontend",
+            "name": "ReactJS"
         }
     ],
     "settings": {
@@ -24,8 +26,30 @@
             "titleBar.activeForeground": "#15202b",
             "titleBar.border": "#61dafb",
             "titleBar.inactiveBackground": "#61dafb99",
-            "titleBar.inactiveForeground": "#15202b99"
+            "titleBar.inactiveForeground": "#15202b99",
+            // Custom terminal settings
+			"terminal.ansiRed": "#e7e44a",
+			"terminal.ansiGreen": "#06ebc5",
+			"terminal.ansiYellow": "#e4a546",
+			"terminal.selectionBackground": "#75968954"
         },
-        "peacock.color": "#61dafb"
-    }
+        "peacock.color": "#61dafb",
+        // Custom settings
+		"editor.fontLigatures": true,
+		"editor.formatOnPaste": true,
+		"terminal.integrated.fontSize": 12,
+		"terminal.integrated.letterSpacing": 2,
+    },
+    "extensions": {
+		"recommendations": [
+		  "coenraads.bracket-pair-colorizer-2",
+		  "esbenp.prettier-vscode",
+		  "perkovec.emoji",
+		  "dbaeumer.vscode-eslint",
+		  "christian-kohler.path-intellisense",
+		  "johnpapa.vscode-peacock",
+		  "ofhumanbondage.react-proptypes-intellisense",
+		  "visualstudioexptteam.vscodeintellicode"
+		],
+	}
 }
