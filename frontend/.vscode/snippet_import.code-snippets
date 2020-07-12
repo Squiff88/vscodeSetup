@@ -22,6 +22,6 @@
 				")}",
 			"export default $name"
 		],
-		"description": "Log output to console"
+		"description": "Create react component"
 	}
 }

@@ -8,20 +8,10 @@
 	// Example:
 	"Print to console": {
 		"scope": "javascript,typescript",
-		"prefix": "snippet_create_component",
+		"prefix": "snippet_import_module",
 		"body": [
-			"import React from 'react'",
-			" ",
-			"interface $name/PropTypes {",
-			" ",
-			"}",
-			" ",
-			"const $name = (props: $name/PropTypes) => {",
-			"	return (",
-			"		<></>",
-				")}",
-			"export default $name"
+			"const $name = require('$name')",
 		],
-		"description": "Log output to console"
+		"description": "module import"
 	}
 }

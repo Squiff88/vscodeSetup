@@ -36,7 +36,7 @@
         // Custom settings
 		"editor.fontLigatures": true,
 		"editor.formatOnPaste": true,
-		"terminal.integrated.fontSize": 16,
+		"terminal.integrated.fontSize": 14,
 		"terminal.integrated.letterSpacing": 2,
     },
     "extensions": {
