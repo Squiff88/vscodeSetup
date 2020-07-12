@@ -1,0 +1,40 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      // {
+      //   "label": "Git Pull",
+      //   "command": "git pull --rebase",
+      //   "type": "shell",
+      // },
+      {
+        "label": "Yarn Install",
+        "command": "yarn install",
+        "type": "shell",
+      },
+      {
+        "label": "Run Development",
+        "command": "yarn run dev",
+        "type": "shell",
+      },
+    //        {
+    //      "type": "typescript",
+    //      "tsconfig": "tsconfig.jest.json",
+    //      "problemMatcher": [
+    //          "$tsc"
+    //      ],
+    //      "group": "build",
+    //      "label": "tsc: build - tsconfig.jest.json"
+    //  }
+      {
+        "label": "Init",
+        "runOptions": {
+          "runOn": "folderOpen"
+        },
+        "dependsOrder": "sequence",
+        "dependsOn": [
+          "Yarn Install",
+          "Run Development"
+        ],
+      }
+    ]
+  }
