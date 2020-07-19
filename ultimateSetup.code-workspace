@@ -30,7 +30,9 @@
             "terminal.ansiRed": "#e7e44a",
             "terminal.ansiGreen": "#06ebc5",
             "terminal.ansiYellow": "#e4a546",
-            "terminal.selectionBackground": "#75968954"
+            "terminal.selectionBackground": "#75968954",
+            "terminal.foreground": "#a1ccf5",
+            "terminal.background": "#1a143b"
         },
         "peacock.color": "#61dafb",
         // Custom settings
